@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Raleway:wght@200&family=Ribeye&family=Roboto:wght@700&family=Source+Sans+Pro:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Mulish&family=Raleway:wght@200&family=Ribeye&family=Roboto:wght@700&family=Source+Sans+Pro:wght@200;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish";
+  font-size: 9px;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.container {
+  width: 1440px;
+  height: 2129px;
+}
+.header {
+  display: flex;
+  height: 77px;
+  width: 90%;
+}
+.header-menu {
+  display: flex;
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #818181;
+  margin-left: 100px;
+}
+.header__title {
+  font-family: "Josefin Sans";
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 38px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  padding: 23px 110px;
+}
+.header-menu__item {
+  margin: 27px 35px;
+}
+}
+.content__text {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+  color: #000000;
+}
+.title {
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.update-status {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #818181;
+}
+.main__content {
+  width: 792px;
+  margin-top: 75px;
+  margin-left: 136px;
+}
+.content__block {
+  display: flex;
+  margin-top: 47px;
+}
+.text__item {
+  width: 496px;
+  height: 168px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+  color: #000000;
+  margin-left: 41.34px;
+}
+.text__block {
+  width: 511px;
+  height: 83px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+  color: #000000;
+  margin-left: 41.34px;
+}
+.content__text {
+  margin-top: 14px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+.main__comment-form {
+  width: 792px;
+  height: 447px;
+  margin-top: 88px;
+  margin-left: 136px;
+  background: #f9f9f9;
+  border: 1px dashed #cccccc;
+}
+.comment__title {
+  width: 220px;
+  height: 20px;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-top: 54px;
+  margin-left: 116px;
+  margin-bottom: 17px;
+}
+.form__items input {
+  float: left;
+}
+#name {
+  background: #ffffff;
+  border: 1px solid #3d8b74;
+  box-sizing: border-box;
+  height: 55px;
+  width: 215px;
+  margin-left: 116px;
+  padding: 18px;
+}
+#email {
+  width: 325px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  margin-left: 22px;
+  padding: 18px;
+}
+#comment {
+  width: 560px;
+  height: 144px;
+  margin-top: 18px;
+  margin-left: 116px;
+  text-align: justify;
+  padding: 19px;
+}
+.button {
+  width: 189px;
+  height: 55px;
+  background: #3d8b74;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  align-items: center;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 116px;
+}
+.wrapper {
+  display: flex;
+  width: 1440px;
+  height: 1667px;
+}
+.sidebar__box {
+  width: 277px;
+  height: 775px;
+  margin-left: 97px;
+  margin-top: 75px;
+}
+.sidebar__categories {
+  width: 277px;
+  height: 319px;
+  border: 1px solid #CCCCCC;
+}
+.category__title {
+  width: 140px;
+  height: 20px;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  padding-top: 37px;
+  padding-left: 32px;
+}
+.category__elements {
+  font-size: 16px;
+  line-height: 34px;
+  margin-left: 34px;
+  margin-top: 28px;
+}
+.sidebar__instagram {
+
+}
+.instagram__title {
+  width: 277px;
+  height: 52px;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 95px;
+}
+.intagram__img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  padding-top: 92px;
+}
+.footer{
+  height: 385px;
+  width: 1440px;
+  background: rgba(35, 35, 35, 1);
+  text-align: center;
+}
+.footer__profile {
+  height: 136px;
+  width: 106px;
+  border-radius: 55%;
+  margin-top: 38px;
+}
+.footer__title {
+  height: 38px;
+  font-family: 'Josefin Sans';
+  font-size: 38px;
+  line-height: 38px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+.footer__logo {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-left: 640px;
+  margin-top: 23px;
+}
+.footer__copyright {
+  width: 1440px;
+  height: 92px;
+  background: #323232;
+}
+.copyright {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 35px;
+}
